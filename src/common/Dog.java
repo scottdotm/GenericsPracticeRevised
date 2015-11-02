@@ -46,6 +46,13 @@ public class Dog {
     }
 
     @Override
+    public String toString() {
+        return "Dog{" + "name=" + name + ", rabiesId=" + rabiesId + '}';
+    }
+    
+    
+
+    @Override
     public boolean equals(Object obj) {
         if (obj == null) {
             return false;

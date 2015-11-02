@@ -21,6 +21,8 @@ public class Challenge1 {
         games.add("Battlefield");
         games.add("Battlefront");
         
+        //change to old for loop
+        
         for (Object hobbie : games) {
             String h = hobbie.toString();
             System.out.println(h);
@@ -31,6 +33,8 @@ public class Challenge1 {
         games.add("Fallout4");
         
         System.out.println("\n");
+        
+        //change to old for loop
         
         for (Object hobbie : games) {
             String h = hobbie.toString();
