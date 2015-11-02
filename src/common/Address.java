@@ -48,6 +48,13 @@ public class Address {
     }
 
     @Override
+    public String toString() {
+        return "Address{" + "address1=" + address1 + ", address2=" + address2 + ", city=" + city + ", phone=" + phone + ", email=" + email + '}';
+    }
+    
+    
+
+    @Override
     public int hashCode() {
         int hash = 7;
         hash = 83 * hash + (this.address1 != null ? this.address1.hashCode() : 0);
