@@ -17,14 +17,14 @@ public class Challenge4 {
         Employee e4 = new Employee("Clevelend", "Rory", "444-44-4444");
         Employee e5 = new Employee("Lemmings", "John", "444-44-4444");
 
-        Set<Employee> emps = new HashSet<Employee>();
-        emps.add(e1);
-        emps.add(e2);
-        emps.add(e3);
-        emps.add(e4);
-        emps.add(e5);
+        Set<Employee> employees = new HashSet<Employee>();
+        employees.add(e1);
+        employees.add(e2);
+        employees.add(e3);
+        employees.add(e4);
+        employees.add(e5);
 
-        for (Employee e : emps) {
+        for (Employee e : employees) {
             System.out.println(e + "\n");
             
         }
